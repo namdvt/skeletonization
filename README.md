@@ -9,7 +9,7 @@ Our solution includes:
 3. Tricks for improving the skeletonization model's performance.
 
 ## 2. Installation
-1. Clone https://anonymous.4open.science/r/skeletonization-32BE/
+1. Clone https://github.com/namdvt/skeletonization
 2. python 3, cv2, pytorch > 1.2
 
 ## 3. Training & Testing
