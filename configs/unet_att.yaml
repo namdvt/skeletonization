@@ -1,0 +1,27 @@
+dataloader:
+  num_workers: 4
+  batch_size: 8
+  dataset:
+    name: 'pixel'
+    data_folder: 'dataset/Starting Kit Pixel/'
+    ann_file: 'dataloader/annotation/fold0.pkl'
+
+solver:
+  loss: dice
+  optimizer: 'sgd'
+  max_epoch: 200
+  base_lr: 0.02
+  momentum: 0.9
+  weight_decay: 1.0e-5
+  lr_scheduler: 'cosine'
+  T_0: 200
+  T_mul: 1
+
+model:
+  name: 'unet_att'
+  device: 'cuda:0'
+  mode: 'train'
+  ckpt: None
+
+load_from: null
+output_dir: 'output/ex1/'

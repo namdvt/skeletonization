@@ -1,0 +1,12 @@
+.vscode/
+checkpoints/
+output/
+dataloader/__pycache__/
+dataloader/transforms/__pycache__/
+model/__pycache__/
+model/backbones/__pycache__/
+solver/__pycache__/
+tools/__pycache__/
+utils/__pycache__/
+dataset
+temp
